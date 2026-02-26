@@ -26,7 +26,7 @@ Antes de começar, você precisará de:
 📥 Instalação e Configuração
 1. Clonar o repositório
 
-git clone https://github.com/seu-usuario/lumina-style-bot.git
+git clone https://github.com/Joaquimkoster/lumina-style-bot.git
 cd lumina-style-bot
 
 2. Instalar dependências
