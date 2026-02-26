@@ -1,76 +1,77 @@
+Here is the English version of your README, optimized for GitHub with clear sections and professional formatting.
 🛍️ Lumina Style Chatbot
 
-Um assistente virtual bilíngue (PT/EN) inteligente para e-commerce, capaz de consultar produtos, calcular frete em tempo real via API e responder dúvidas gerais usando Inteligência Artificial.
-🚀 Funcionalidades
+An intelligent bilingual (PT/EN) virtual assistant for e-commerce, capable of searching for products, calculating real-time shipping via API, and answering general questions using Artificial Intelligence.
+🚀 Features
 
-    Detecção Automática de Idioma: Identifica se o usuário fala Português ou Inglês.
+    Auto Language Detection: Automatically identifies if the user is speaking Portuguese or English.
 
-    Busca Semântica de Produtos: Reconhece itens por nome ou categoria.
+    Semantic Product Search: Recognizes items by name or category keywords.
 
-    Cálculo de Frete Real: Integração com a API ViaCEP para consultar endereços brasileiros.
+    Real Shipping Calculation: Integrated with the ViaCEP API to consult Brazilian addresses and estimate costs/delivery times.
 
-    Inteligência Artificial: Utiliza o modelo llama-3.1-8b da Groq para diálogos naturais.
+    Artificial Intelligence: Powered by the Llama-3.1-8b model via Groq for natural, fluid dialogues.
 
-    Memória de Contexto: Lembra do último produto mencionado para facilitar a compra.
+    Contextual Memory: Remembers the last product mentioned to handle follow-up questions (e.g., "I want two of those").
 
-🛠️ Pré-requisitos
+🛠️ Prerequisites
 
-Antes de começar, você precisará de:
+Before you begin, ensure you have:
 
-    Python 3.8+ instalado.
+    Python 3.8+ installed.
 
-    Uma API Key da Groq (obtenha gratuitamente em groq.com).
+    A Groq API Key (get it for free at groq.com).
 
-    As bibliotecas listadas no passo a passo abaixo.
+    The libraries listed in the installation step below.
 
-📥 Instalação e Configuração
-1. Clonar o repositório
+📥 Installation & Setup
+1. Clone the repository
 
 git clone https://github.com/Joaquimkoster/Lumina-Style-AI-Assistant.git
 cd lumina-style-bot
 
-2. Instalar dependências
+2. Install dependencies
 
-Execute o comando abaixo para instalar as bibliotecas necessárias:
+Run the following command to install the required libraries:
 
 pip install groq langdetect requests
 
-3. Configurar a Base de Dados
+3. Configure the Database
 
-Certifique-se de que o arquivo bd.json (com o conteúdo JSON que você forneceu) esteja na mesma pasta do script Python.
-4. Configurar a API Key
+Ensure the bd.json file (containing the product and store data) is in the same folder as the Python script.
+4. Configure the API Key
 
-Abra o arquivo Python e localize a linha 24:
+Open the Python file and locate line 24:
 
-api_key = "COLOQUE_SUA_CHAVE_AQUI"
+api_key = "PUT_YOUR_KEY_HERE"
 
-Substitua pelo seu token da Groq.
-🎮 Como Usar
+Replace it with your actual Groq token.
+🎮 How to Use
 
-Para iniciar o bot, execute:
+To start the bot, run:
 
-python seu_arquivo.py
+python your_file_name.py
 
-Exemplos de interação:
+Interaction Examples:
 
-    “Quero ver as camisetas” -> O bot listará os detalhes e preços.
+    “I want to see the t-shirts” -> The bot will list details and prices.
 
-    “What is the shipping for 01310-930?” -> O bot consultará a localização e dará o valor.
+    “Qual o frete para 01310-930?” -> The bot will fetch the location and provide shipping rates.
 
-    “Como funciona o pagamento?” -> O bot trará as informações do banco de dados.
+    “How does payment work?” -> The bot retrieves information directly from the database.
 
-    “I want two of these” -> Se você acabou de ver um produto, ele calculará o total para 2 unidades.
+    “I want two of these” -> If you just viewed a product, it will calculate the total for 2 units.
 
-💡 Dicas para o Desenvolvedor
+💡 Developer Tips
 
-    Personalização: Você pode alterar a "personalidade" do bot editando a variável sistema dentro da função resposta_groq.
+    Customization: You can change the bot's "personality" by editing the sistema (system prompt) variable inside the resposta_groq function.
 
-    Novas Categorias: Para adicionar produtos, basta seguir o padrão no bd.json. Lembre-se de adicionar sinônimos na lista de categorias     para que a busca direta funcione melhor.
+    Adding Products: To add new items, simply follow the pattern in bd.json. Add synonyms to the categorias list to improve the search accuracy.
 
-    Segurança: Nunca suba sua API Key para o GitHub. Use variáveis de ambiente (os.getenv) se for tornar o repositório público.
+    Security: Never upload your API Key to GitHub. Use environment variables (os.getenv) if you plan to make the repository public.
 
-    Melhoria no Frete: Atualmente, as regras de preço de frete são estáticas por estado. Você pode expandir a função calcular_frete_viacep para calcular o peso dos itens.
+    Shipping Logic: Currently, shipping rules are static based on the State (UF). You can expand the calcular_frete_viacep function to calculate costs based on weight or dimensions.
 
-📝 Licença
+📝 License
 
-Este projeto é para fins educacionais. Sinta-se à vontade para usar e adaptar!
+This project is for educational purposes. Feel free to use, modify, and adapt it!
