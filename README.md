@@ -32,7 +32,6 @@ cd lumina-style-bot
 2. Instalar dependências
 
 Execute o comando abaixo para instalar as bibliotecas necessárias:
-Bash
 
 pip install groq langdetect requests
 
@@ -42,7 +41,6 @@ Certifique-se de que o arquivo bd.json (com o conteúdo JSON que você forneceu)
 4. Configurar a API Key
 
 Abra o arquivo Python e localize a linha 24:
-Python
 
 api_key = "COLOQUE_SUA_CHAVE_AQUI"
 
