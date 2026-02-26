@@ -1,4 +1,4 @@
-🛍️ Lumina Style Chatbot
+🛍️ Lumina Style AI Assistant
 
 An intelligent bilingual (PT/EN) virtual assistant for e-commerce, capable of searching for products, calculating real-time shipping via API, and answering general questions using Artificial Intelligence.
 🚀 Features
