@@ -1,4 +1,3 @@
-Here is the English version of your README, optimized for GitHub with clear sections and professional formatting.
 🛍️ Lumina Style Chatbot
 
 An intelligent bilingual (PT/EN) virtual assistant for e-commerce, capable of searching for products, calculating real-time shipping via API, and answering general questions using Artificial Intelligence.
