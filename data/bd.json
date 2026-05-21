@@ -1,0 +1,54 @@
+{
+  "pt": {
+    "produtos": [
+      { "nome": "Camiseta Oversized Urban Vibes", "preco": 79.90, "emoji": "👕", "cores": ["Preto", "Branco", "Azul", "Vermelho"], "categorias": ["camiseta", "camisa", "blusa", "camisetas"], "descricao": "Camiseta de algodão premium com corte moderno e caimento confortável." },
+      { "nome": "Mochila Anti-furto Urban", "preco": 149.90, "emoji": "🎒", "cores": ["Preto", "Azul", "Vermelho"], "categorias": ["mochila", "mochilas"], "descricao": "Segurança e estilo para o seu dia a dia, com compartimento oculto." },
+      { "nome": "Vestido Midi Floral", "preco": 119.90, "emoji": "👗", "cores": ["Rosa", "Azul", "Branco"], "categorias": ["vestido", "vestidos"], "descricao": "Leveza e elegância para dias ensolarados." },
+      { "nome": "Boné Classic Street", "preco": 59.90, "emoji": "🧢", "cores": ["Preto", "Branco", "Azul"], "categorias": ["boné", "bone", "bonés"], "descricao": "Acessório indispensável para compor seu look streetwear." },
+      { "nome": "Calça Cargo Urban", "preco": 139.90, "emoji": "👖", "cores": ["Preto", "Branco", "Azul", "Vermelho"], "categorias": ["calça", "calças", "calca"], "descricao": "Calça resistente com múltiplos bolsos e ajuste moderno." },
+      { "nome": "Jaqueta Corta-Vento Street", "preco": 189.90, "emoji": "🧥", "cores": ["Preto", "Azul", "Vermelho"], "categorias": ["jaqueta", "jaquetas", "casaco"], "descricao": "Proteção contra o vento com tecido leve e impermeável." },
+      { "nome": "Tênis Urban Comfort", "preco": 199.90, "emoji": "👟", "cores": ["Preto", "Branco", "Azul", "Vermelho"], "categorias": ["tênis", "tenis", "sapato"], "descricao": "Conforto extremo para longas caminhadas no asfalto." },
+      { "nome": "Colar Prata Urban", "preco": 49.90, "emoji": "📿", "categorias": ["colar", "colares", "acessórios"], "descricao": "Colar de prata 925 com pingente geométrico minimalista." },
+      { "nome": "Pulseira de Couro", "preco": 34.90, "emoji": "⌚", "categorias": ["pulseira", "pulseiras", "acessórios"], "descricao": "Pulseira em couro legítimo com fecho magnético reforçado." },
+      { "nome": "Brincos de Argola", "preco": 29.90, "emoji": "👂", "categorias": ["brinco", "brincos", "acessórios"], "descricao": "Argolas leves em aço cirúrgico, ideais para uso diário." },
+      { "nome": "Anel Signo", "preco": 39.90, "emoji": "💍", "categorias": ["anel", "anéis", "acessórios"], "descricao": "Anel ajustável com gravação personalizada a laser." }
+    ],
+    "promoções": "🎉 Promoções do dia:\n- Camisetas: 20% OFF\n- Mochilas: Frete grátis\n- Vestidos: Leve 2 e pague 1",
+    "tabela de medidas": "📏 Tabela de medidas:\nP: 165–175 cm / 55–65 kg\nM: 170–180 cm / 65–75 kg\nG: 175–185 cm / 75–85 kg\nGG: 180–195 cm / 85–100 kg",
+    "pagamento": "💸 Aceitamos PIX, cartão, boleto e Mercado Pago.",
+    "pix": "🔥 Pagando via PIX você ganha 10% de desconto!",
+    "cartão": "💳 Aceitamos Visa, MasterCard, Elo e mais.",
+    "troca": "🔁 Trocas e devoluções em até 7 dias após o recebimento.",
+    "rastrear": "📦 Assim que o pedido for enviado, o código aparecerá aqui no chat.",
+    "frete": "🚚 Enviamos para todo o Brasil! Me diga o CEP para calcular.",
+    "suporte": "📞 Suporte 08h–18h\nEmail: suporte@luminastyle.com\nWhatsApp: (11) 99999-9999",
+    "horário": "⏰ A loja funciona 24h online.",
+    "menu": "Aqui está o menu principal:\n1. Ver produtos\n2. Tabela de medidas\n3. Formas de pagamento\n4. Informações de frete\n5. Troca e devolução"
+  },
+  "en": {
+    "produtos": [
+      { "nome": "Urban Vibes Oversized T-Shirt", "preco": 79.90, "emoji": "👕", "cores": ["Black", "White", "Blue", "Red"], "categorias": ["t-shirt", "shirt", "top", "t-shirts"], "descricao": "Premium cotton t-shirt with a modern cut and comfortable fit." },
+      { "nome": "Urban Anti-theft Backpack", "preco": 149.90, "emoji": "🎒", "cores": ["Black", "Blue", "Red"], "categorias": ["backpack", "backpacks", "bag"], "descricao": "Security and style for your daily routine, featuring a hidden compartment." },
+      { "nome": "Floral Midi Dress", "preco": 119.90, "emoji": "👗", "cores": ["Pink", "Blue", "White"], "categorias": ["dress", "dresses"], "descricao": "Lightness and elegance for sunny days." },
+      { "nome": "Classic Street Cap", "preco": 59.90, "emoji": "🧢", "cores": ["Black", "White", "Blue"], "categorias": ["cap", "hat", "caps"], "descricao": "An essential accessory to complete your streetwear look." },
+      { "nome": "Urban Cargo Pants", "preco": 139.90, "emoji": "👖", "cores": ["Black", "White", "Blue", "Red"], "categorias": ["pants", "trousers", "cargo"], "descricao": "Durable pants with multiple pockets and a modern fit." },
+      { "nome": "Street Windbreaker Jacket", "preco": 189.90, "emoji": "🧥", "cores": ["Black", "Blue", "Red"], "categorias": ["jacket", "jackets", "coat"], "descricao": "Wind protection with lightweight, waterproof fabric." },
+      { "nome": "Urban Comfort Sneakers", "preco": 199.90, "emoji": "👟", "cores": ["Black", "White", "Blue", "Red"], "categorias": ["sneakers", "shoes", "trainers"], "descricao": "Extreme comfort for long walks on the asphalt." },
+      { "nome": "Urban Silver Necklace", "preco": 49.90, "emoji": "📿", "categorias": ["necklace", "necklaces", "accessories"], "descricao": "925 silver necklace with a minimalist geometric pendant." },
+      { "nome": "Leather Bracelet", "preco": 34.90, "emoji": "⌚", "categorias": ["bracelet", "bracelets", "accessories"], "descricao": "Genuine leather bracelet with a reinforced magnetic clasp." },
+      { "nome": "Hoop Earrings", "preco": 29.90, "emoji": "👂", "categorias": ["earring", "earrings", "accessories"], "descricao": "Lightweight surgical steel hoops, ideal for daily wear." },
+      { "nome": "Zodiac Ring", "preco": 39.90, "emoji": "💍", "categorias": ["ring", "rings", "accessories"], "descricao": "Adjustable ring with personalized laser engraving." }
+    ],
+    "promoções": "🎉 Today's Deals:\n- T-shirts: 20% OFF\n- Backpacks: Free Shipping\n- Dresses: Buy 2 Get 1 Free",
+    "tabela de medidas": "📏 Size Chart:\nS: 165–175 cm / 55–65 kg\nM: 170–180 cm / 65–75 kg\nL: 175–185 cm / 75–85 kg\nXL: 180–195 cm / 85–100 kg",
+    "pagamento": "💸 We accept PIX, credit cards, bank slips, and Mercado Pago.",
+    "pix": "🔥 Pay via PIX and get a 10% discount!",
+    "cartão": "💳 We accept Visa, MasterCard, Elo, and more.",
+    "troca": "🔁 Exchanges and returns within 7 days of receipt.",
+    "rastrear": "📦 Once your order is shipped, the tracking code will appear here in the chat.",
+    "frete": "🚚 We ship all over Brazil! Provide your ZIP code to calculate shipping costs.",
+    "suporte": "📞 Support 08:00 AM – 06:00 PM\nEmail: suporte@luminastyle.com\nWhatsApp: +55 (11) 99999-9999",
+    "horário": "⏰ The online store is open 24/7.",
+    "menu": "Here is the main menu:\n1. View products\n2. Size chart\n3. Payment methods\n4. Shipping info\n5. Exchange and returns"
+  }
+}

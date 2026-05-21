@@ -1,0 +1,4 @@
+flet
+groq
+requests
+langdetect

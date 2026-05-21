@@ -1,0 +1,7 @@
+.env
+chave_groq.txt
+
+.lumina_style/
+.venv/
+__pycache__/
+*.pyc
