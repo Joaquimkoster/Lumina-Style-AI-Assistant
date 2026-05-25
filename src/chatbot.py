@@ -352,7 +352,6 @@ def calcular_frete_viacep(cep_digitado, lang):
         if "erro" in r:
             return textos["cep_nao_encontrado"]
         uf, cidade = r['uf'], r['localidade']
-        # Lógica simplificada de frete
         p, v = ("3-5 dias", "R$ 15,00") if uf == "SP" else ("7-10 dias", "R$ 30,00")
         return textos["resultado"].format(cidade=cidade, uf=uf, valor=v, prazo=p)
     except requests.Timeout:
@@ -424,7 +423,6 @@ def processar_mensagem_total(msg_usuario, api_key_usuario, session=None):
     if session is None:
         session = ChatSession()
 
-    # 1. Detecta idioma e carrega o JSON
     lang = detectar_idioma(msg_usuario)
     bd_idioma = carregar_bd(lang)
     msg_l = msg_usuario.lower()
